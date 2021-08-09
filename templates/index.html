@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+    <h1>Hola!</h1>
+    <form action="" method="POST">
+        <input type="text" name="username" placeholder="Type your name">
+        <button type="submit">Submit</button>
+    </form>
+    <p>Hello {{ username }}, this is a flask application</p>
+{% endblock %}
